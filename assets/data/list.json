@@ -4,7 +4,7 @@
 		"items":[
 			{
 				"title":"Renobit",
-				"thumb":"./assets/images/renobit.jpg",
+				"thumb":"assets/images/renobit.jpg",
 				"color":"#0d1a2a",
 				"description":[
 					"모니터링 데이터 시각화 제품으로 크게 <strong>에디터</strong>, <strong>뷰어</strong>, 기능확장을 위한 <strong>플러그인</strong>으로 구성된다.",
@@ -32,7 +32,7 @@
 			{
 				"title":"CJ NINE BRIDGES",
 				"color":"#e56767",
-				"thumb":"./assets/images/nine.jpg",
+				"thumb":"assets/images/nine.jpg",
 				"description":[
 					"CJ CUP NINE BRIDGES 사이트",
 					"반응형 사이트지만 메뉴별 디자인이 많이 다른구조라 반응형 구성에 노력을 많이 한 프로젝트",
@@ -47,8 +47,8 @@
 				},
 				"relation":{
 					"images":[
-						"./assets/images/nine/thumb_0.jpg",
-						"./assets/images/nine/thumb_1.jpg"
+						"assets/images/nine/thumb_0.jpg",
+						"assets/images/nine/thumb_1.jpg"
 					]
 				},
 				"url"			:"https://thecjcup.com:452/course.asp"
@@ -56,7 +56,7 @@
 			{
 				"title":"Chronicles of Luke",
 				"color":"#141311",
-				"thumb":"./assets/images/luke.jpg",
+				"thumb":"assets/images/luke.jpg",
 				"description":[
 					"던전앤파이터 해외 프로모션 사이트.",
 					"마우스 휠에 따른 가로이동과 패럴럭스 효과를 통한 그래픽요소 제어가 주요 이슈였다.",
@@ -71,16 +71,16 @@
 				},
 				"relation":{
 					"images":[
-						"./assets/images/parallax/thumb_0.jpg",
-						"./assets/images/parallax/thumb_1.jpg",
-						"./assets/images/parallax/thumb_2.jpg"
+						"assets/images/parallax/thumb_0.jpg",
+						"assets/images/parallax/thumb_1.jpg",
+						"assets/images/parallax/thumb_2.jpg"
 					]
 				},
 				"url"			:"http://www.dfoneople.com/news/updates/Chronicles-of-Luke"
 			},
 			{
 				"title":"Samsung Membership",
-				"thumb":"./assets/images/sam_membership.jpg",
+				"thumb":"assets/images/sam_membership.jpg",
 				"color":"#0057b8",
 				"description":[
 					"삼성전자 멤버십 사이트",
@@ -97,8 +97,8 @@
 				},
 				"relation":{
 					"images":[
-						"./assets/images/sam_membership/thumb_0.jpg",
-						"./assets/images/sam_membership/thumb_1.jpg"
+						"assets/images/sam_membership/thumb_0.jpg",
+						"assets/images/sam_membership/thumb_1.jpg"
 					]
 				},
 				"url"			:"https://membership.samsung.com/sec"
@@ -106,7 +106,7 @@
 			{
 				"title":"P.K Game",
 				"color":"#a88e68",
-				"thumb":"./assets/images/socketio.jpg",
+				"thumb":"assets/images/socketio.jpg",
 				"description":[
 					"socketIO를 활용한 미니게임.",
 					"뷰(폰과 브라우저)는 socket을 통해 통신하고 폰에서 유저가 공을 던지면 던진 방향에 따라 브라우저가 반응해 공이 날아간다.",
@@ -122,16 +122,16 @@
 				},
 				"relation":{
 					"images":[
-						"./assets/images/socketio/thumb_0.jpg",
-						"./assets/images/socketio/thumb_1.jpg",
-						"./assets/images/socketio/thumb_2.jpg"
+						"assets/images/socketio/thumb_0.jpg",
+						"assets/images/socketio/thumb_1.jpg",
+						"assets/images/socketio/thumb_2.jpg"
 					]
 				}
 			},
 			{
 				"title":"Korean Air",
 				"color":"#4195ba",
-				"thumb":"./assets/images/korean_air.jpg",
+				"thumb":"assets/images/korean_air.jpg",
 				"description":[
 					"대한항공 프랑스 데스티네이션 디지털 캠페인",
 					"'프랑스 게스트 하우스 입주자를 모집합니다.' 라는 컨셉에 맞게 각 지역별 게스트 하우스 정보와 함께 메인 컨텐츠로의 접근성을 높여 고객이 입주지원에 쉽게 참여할 수 있도록 하였다.",
@@ -146,7 +146,7 @@
 				},
 				"relation":{
 					"images":[
-						"./assets/images/korean_air/thumb_0.jpg"
+						"assets/images/korean_air/thumb_0.jpg"
 					]
 				},
 				"url":"http://france.koreanair.com/live/list.asp"
@@ -154,7 +154,7 @@
 			{
 				"title":"Hyundai Webzine",
 				"color":"#747f84",
-				"thumb":"./assets/images/hyundai.jpg",
+				"thumb":"assets/images/hyundai.jpg",
 				"description":[
 					"현대 자동차 웹진",
 					"전시관 부스에 배치된 iPad에 설치한 앱으로 관람객이 볼 때 지루하지 않게 페이지 별 Transition효과에 신경을 많이 섰다.",
@@ -169,16 +169,16 @@
 				},
 				"relation":{
 					"images":[
-						"./assets/images/hyundai/thumb_0.jpg",
-						"./assets/images/hyundai/thumb_1.jpg",
-						"./assets/images/hyundai/thumb_2.jpg"
+						"assets/images/hyundai/thumb_0.jpg",
+						"assets/images/hyundai/thumb_1.jpg",
+						"assets/images/hyundai/thumb_2.jpg"
 					]
 				}
 			},
 			{
 				"title":"StoryAlbum",
 				"color":"#3c4c5b",
-				"thumb":"./assets/images/story.jpg",
+				"thumb":"assets/images/story.jpg",
 				"description":[
 					"플래시의 jsfl을 이용한 포토앨범제작 툴",
 					"손쉬운 포토앨범 생성을 컨셉으로 복잡한 편집없이 누구나 쉽게 포토앨범을 만들 수 있게 하는게 목표였다.",
@@ -194,14 +194,14 @@
 				},
 				"relation":{
 					"images":[
-						"./assets/images/story/thumb_0.jpg",
-						"./assets/images/story/thumb_1.jpg"
+						"assets/images/story/thumb_0.jpg",
+						"assets/images/story/thumb_1.jpg"
 					]
 				}
 			},
 			{
 				"title":"E-LiveZine",
-				"thumb":"./assets/images/eliveZine.jpg",
+				"thumb":"assets/images/eliveZine.jpg",
 				"color":"#091544",
 				"description":[
 					"가상프린터를 이용한 e카달로그 서비스",
@@ -219,7 +219,7 @@
 				},
 				"relation":{
 					"images":[
-						"./assets/images/eliveZine/thumb_0.jpg"
+						"assets/images/eliveZine/thumb_0.jpg"
 					]
 				}
 			}
@@ -230,7 +230,7 @@
 		"items":[
 			{
 				"title":"Particles",
-				"thumb":"./assets/images/particle.jpg",
+				"thumb":"assets/images/particle.jpg",
 				"color":"#283149",
 				"description":[
 					"particle을 이용한 이미지 표현",
@@ -241,18 +241,18 @@
 				},
 				"relation":{
 					"images":[
-						"./assets/images/glsl_particle/thumb_0.jpg",
-						"./assets/images/glsl_particle/thumb_1.jpg"
+						"assets/images/glsl_particle/thumb_0.jpg",
+						"assets/images/glsl_particle/thumb_1.jpg"
 					]
 				},
 				"component":{
 					"name":"ParticleGLSL",
 					"resources":[
-						"./assets/images/glsl_particle/glsl_particle.png",
-						"./assets/images/glsl_particle/glsl_particle1.png",
-						"./assets/images/glsl_particle/glsl_particle2.png",
-						"./assets/images/glsl_particle/glsl_particle3.png",
-						"./assets/images/glsl_particle/glsl_particle4.png"
+						"assets/images/glsl_particle/glsl_particle.png",
+						"assets/images/glsl_particle/glsl_particle1.png",
+						"assets/images/glsl_particle/glsl_particle2.png",
+						"assets/images/glsl_particle/glsl_particle3.png",
+						"assets/images/glsl_particle/glsl_particle4.png"
 					],
 					"backgroundColors":[
 						"#000000",
@@ -265,7 +265,7 @@
 			},
 			{
 				"title":"Displacement",
-				"thumb":"./assets/images/replace_01.jpg",
+				"thumb":"assets/images/replace_01.jpg",
 				"color":"#b2a8e5",
 				"description":[
 					"shader를 이용한 Displacement효과",
@@ -276,21 +276,21 @@
 				},
 				"relation":{
 					"images":[
-						"./assets/images/displacement/thumb_0.jpg",
-						"./assets/images/displacement/thumb_1.jpg"
+						"assets/images/displacement/thumb_0.jpg",
+						"assets/images/displacement/thumb_1.jpg"
 					]
 				},
 				"component":{
 					"name":"DisplacementGLSL",
 					"resources":[
-						"./assets/images/replace_05.jpg",
-						"./assets/images/replace_08.jpg"
+						"assets/images/replace_05.jpg",
+						"assets/images/replace_08.jpg"
 					]
 				}
 			},
 			{
 				"title":"Displacement2",
-				"thumb":"./assets/images/channel.jpg",
+				"thumb":"assets/images/channel.jpg",
 				"color":"#9e3732",
 				"description":[
 					"shader를 이용한 Displacement효과",
@@ -301,25 +301,25 @@
 				},
 				"relation":{
 					"images":[
-						"./assets/images/channel/thumb_0.jpg",
-						"./assets/images/channel/thumb_1.jpg"
+						"assets/images/channel/thumb_0.jpg",
+						"assets/images/channel/thumb_1.jpg"
 					]
 				},
 				"component":{
 					"name":"ChannelMixGLSL",
 					"resources":[
-						"./assets/images/channel/batman_logo.jpg",
-						"./assets/images/channel/batman_0.jpg",
-						"./assets/images/channel/batman_1.jpg",
-						"./assets/images/channel/batman_2.jpg",
-						"./assets/images/channel/batman_3.jpg",
-						"./assets/images/channel/batman_4.jpg"
+						"assets/images/channel/batman_logo.jpg",
+						"assets/images/channel/batman_0.jpg",
+						"assets/images/channel/batman_1.jpg",
+						"assets/images/channel/batman_2.jpg",
+						"assets/images/channel/batman_3.jpg",
+						"assets/images/channel/batman_4.jpg"
 					]
 				}
 			},
 			{
 				"title":"Tree",
-				"thumb":"./assets/images/recursive.jpg",
+				"thumb":"assets/images/recursive.jpg",
 				"color":"#254834",
 				"description":[
 					"재귀함수를 이용한 Tree",
@@ -330,8 +330,8 @@
 				},
 				"relation":{
 					"images":[
-						"./assets/images/recursive_tree/thumb_0.jpg",
-						"./assets/images/recursive_tree/thumb_1.jpg"
+						"assets/images/recursive_tree/thumb_0.jpg",
+						"assets/images/recursive_tree/thumb_1.jpg"
 					]
 				},
 				"component":{
@@ -341,7 +341,7 @@
 			{
 				"title":"Block Build",
 				"color":"#707070",
-				"thumb":"./assets/images/bb.jpg",
+				"thumb":"assets/images/bb.jpg",
 				"description":[
 					"PixiJS를 이용한 개인 프로젝트",
 					"타일이 클릭&드래그 시 무한히 이어지는게 목표였는데 조금씩 살이 붙어 사이트 형태가 되었다.",
@@ -359,8 +359,8 @@
 				},
 				"relation":{
 					"images":[
-						"./assets/images/bb/thumb_0.jpg",
-						"./assets/images/bb/thumb_1.jpg"
+						"assets/images/bb/thumb_0.jpg",
+						"assets/images/bb/thumb_1.jpg"
 					]
 				},
 				"url":"https://chaospace.github.io/bbproject/"
@@ -368,7 +368,7 @@
 			{
 				"title":"ParticleNode",
 				"color":"#262626",
-				"thumb":"./assets/images/particle_node.jpg",
+				"thumb":"assets/images/particle_node.jpg",
 				"description":[
 					"Canvas를 이용한 인터렉티브 작업",
 					"일정간격마다 랜덤한 숫자의 파티클을 생성해 보여주고 마우스를 움직이면 추가 파티클 생성한다.",
@@ -382,7 +382,7 @@
 				},
 				"relation":{
 					"images":[
-						"./assets/images/particle_node/thumb_1.jpg"
+						"assets/images/particle_node/thumb_1.jpg"
 					]
 				},
 				"url":"http://chaospace.github.io/particle-node/"
