@@ -680,4 +680,8 @@ footer {
 
 @media screen and (max-width: 768px) {
   header {
-    padding: 12px; } }
+    padding: 12px; }
+  #content-container .content-area .content-frame {
+    padding: 60px 20px; }
+    #content-container .content-area .content-frame .image-box {
+      padding: 20px 10px; } }
