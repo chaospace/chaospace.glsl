@@ -611,6 +611,8 @@ header {
           font-weight: bold;
           color: #8fccff;
           flex: 0 1 80px; }
+        #content-container .content-area .content-frame .summary-box li .description {
+          flex: 1; }
       #content-container .content-area .content-frame .image-box {
         padding: 20px;
         text-align: center; }
