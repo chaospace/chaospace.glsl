@@ -388,6 +388,10 @@ ul, li {
 li {
   list-style: none; }
 
+button {
+  font-family: 'Noto Sans KR', sans-serif !important;
+  font-style: normal; }
+
 button:focus {
   outline: 0; }
 
@@ -397,8 +401,7 @@ strong {
 .quick-bar {
   position: fixed;
   bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  right: 20px;
   z-index: 35; }
   .quick-bar .btn-top {
     text-align: center;
@@ -452,14 +455,14 @@ header {
   justify-content: space-between; }
   header .logo {
     position: relative;
-    text-shadow: 1px 1px 1px black; }
+    text-shadow: 2px 2px 1px black; }
   header nav ul {
     display: flex;
     align-items: flex-start; }
     header nav ul .nav-item {
       position: relative;
       margin: 0 10px;
-      text-shadow: 1px 1px 1px black;
+      text-shadow: 2px 2px 1px black;
       color: white;
       padding: 0;
       border: none; }
@@ -554,7 +557,7 @@ header {
     height: 18px;
     width: 2px;
     top: 6px;
-    background-color: black; }
+    background-color: #999; }
   .btn-close:before {
     transform: rotate(45deg); }
   .btn-close:after {
