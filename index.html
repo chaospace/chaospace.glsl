@@ -16,13 +16,20 @@
   <body>
     <div class="site-wrapper">
       <header>
-        <div class="logo">chaospace</div>
-        <nav class="navigation"></nav>
+        <div class="global-layer">
+          <div class="logo">chaospace</div>
+          <button class="global-menu"><span class="menu-bar-icon"></span><span class="menu-bar-icon"></span><span class="menu-bar-icon"></span></button>
+        </div>
+        <div class="menu-layer">
+          <nav class="navigation"></nav>
+        </div>
       </header>
       <div id="visual-container">
-        <canvas id="glsl-viewer"></canvas>
+        <div class="view-panel">
+          <canvas id="glsl-viewer"></canvas>
+        </div>
+        <div class="control-panel"></div>
       </div>
-      <div id="visual-container-scrollbar"></div>
       <main id="content-container" data-router-wrapper="data-router-wrapper">
         <div class="content-area" id="ctop"></div>
       </main>
