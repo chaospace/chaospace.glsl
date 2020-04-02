@@ -455,14 +455,14 @@ header {
   justify-content: space-between; }
   header .logo {
     position: relative;
-    text-shadow: 2px 2px 1px black; }
+    text-shadow: 1px 1px 1px black; }
   header nav ul {
     display: flex;
     align-items: flex-start; }
     header nav ul .nav-item {
       position: relative;
       margin: 0 10px;
-      text-shadow: 2px 2px 1px black;
+      text-shadow: 1px 1px 1px black;
       color: white;
       padding: 0;
       border: none; }
