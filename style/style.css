@@ -518,7 +518,7 @@ header {
             transform-origin: 100% 50%;
             background-color: #ff4940;
             transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); }
-          header .menu-layer .navigation ul .nav-item:hover:after {
+          header .menu-layer .navigation ul .nav-item:hover:after, header .menu-layer .navigation ul .nav-item.active:after {
             transform-origin: 0 50%;
             transform: scaleX(1); }
   header.active-menu .global-layer .global-menu {
