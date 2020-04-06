@@ -13,7 +13,7 @@
 					"최신 프론트 기술이 주가 되는 서비스라면 이제는 제품스펙에서 ie11을 제외하는 것도 제품성장을 위해서는 나쁜게 아니라는 생각이 들었다."
 				],
 				"summary":{
-					"environment":"TypeScript, Vue, Node, Threejs",
+					"environment":"Webpack, TypeScript, Vue, Node, Threejs",
 					"implements" :[
 						"DisplayObject, 2D, 3D컴포넌트 코어 패키지",
 						"에디터 2D컴포넌트(dom, svg) multiTransformTool",
@@ -22,7 +22,7 @@
 				},
 				"relation":{
 					"movie":{
-						"src"		:"https://www.youtube.com/embed/SCLZihl8LC8?rel=0&amp;autoplay=0&amp;showinfo=0",
+						"src"   :"https://www.youtube.com/embed/SCLZihl8LC8?rel=0&amp;autoplay=0&amp;showinfo=0",
 						"allow"	:"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					}
 				},
@@ -39,7 +39,7 @@
 					"course, tournament info같은 메뉴는 media query로는 반응형 처리가 힘들어 javascript를 많이 사용했다."
 				],
 				"summary":{
-					"environment":"JavaScript, scrollReveal, HTML, CSS",
+					"environment":"Gulp, JavaScript, HTML, CSS",
 					"implements" :[
 						"스크롤에 따른 애니메이션 처리",
 						"이미지 갤러리( youToube 영상지원, 풀스크린 토글 )"
@@ -237,7 +237,7 @@
 					"이미지의 컬러정보를 바탕으로 마우스에 반응하는 particle을 만든다."
 				],
 				"summary":{
-					"environment":"Threejs, shader, canvas"
+					"environment":"Gulp, Rollup, Threejs, shader, canvas"
 				},
 				"relation":{
 					"images":[
@@ -264,6 +264,55 @@
 				}
 			},
 			{
+				"title":"Cylinder",
+				"thumb":"assets/images/particle.jpg",
+				"color":"#283149",
+				"description":[
+					"shader를 이용한 이미지 전환"
+				],
+				"summary":{
+					"environment":"Gulp, Rollup, Threejs, shader, canvas"
+				},
+				"relation":{
+					"images":[
+						"assets/images/glsl_particle/thumb_0.jpg",
+						"assets/images/glsl_particle/thumb_1.jpg"
+					]
+				},
+				"component":{
+					"name":"CylinderGLSL",
+					"resources":[
+						"assets/images/replace_06.jpg",
+						"assets/images/replace_07.jpg"
+					]
+				}
+			},
+			{
+				"title":"ParticleText",
+				"thumb":"assets/images/particle_text.jpg",
+				"color":"#283149",
+				"description":[
+					"particle을 이용한 글자 표현",
+					"속성을 변경하며 글자를 다양하게 표현한다"
+				],
+				"summary":{
+					"environment":"Gulp, Rollup, Threejs, shader, canvas"
+				},
+				"relation":{
+					"images":[
+						"assets/images/glsl_text/thumb_0.jpg",
+						"assets/images/glsl_text/thumb_1.jpg"
+					]
+				},
+				"component":{
+					"name":"ParticleTextGLSL",
+					"resources":[
+						"assets/images/particle_text/alicia.png",
+						"assets/images/particle_text/gigi_hardid.png"
+					]
+				}
+			},
+			{
 				"title":"Displacement",
 				"thumb":"assets/images/replace_01.jpg",
 				"color":"#b2a8e5",
@@ -272,7 +321,7 @@
 					"두 개의 텍스처(image, noise)를 이용해 효과를 만들고 smoothstep을 이용해 전환시킨다."
 				],
 				"summary":{
-					"environment":"Threejs, shader"
+					"environment":"Gulp, Rollup, Threejs, shader"
 				},
 				"relation":{
 					"images":[
@@ -289,7 +338,7 @@
 				}
 			},
 			{
-				"title":"Displacement2",
+				"title":"ChannelMix",
 				"thumb":"assets/images/channel.jpg",
 				"color":"#9e3732",
 				"description":[
@@ -297,7 +346,7 @@
 					"전환하는 texture의 rgb값을 이용해 효과를 만들고 mix를 이용해 전환시킨다."
 				],
 				"summary":{
-					"environment":"JavaScript, Threejs"
+					"environment":"Gulp, Rollup, JavaScript, Threejs"
 				},
 				"relation":{
 					"images":[
@@ -323,10 +372,10 @@
 				"color":"#254834",
 				"description":[
 					"재귀함수를 이용한 Tree",
-					"플래시 초반 Graphics에서 자주 이용하던 고전적인 표현이지만 canvas에 globalComposite옵션을 이용하니 느낌이 많이 달른 느낌."
+					"플래시 배우던 시기에 Graphics로 자주 이용하던 고전적인 표현이었는데 canvas에 globalComposite속성을 적용하니 느낌이 새롭다."
 				],
 				"summary":{
-					"environment":"JavaScript, Canvas, Threejs"
+					"environment":"Gulp, Rollup, JavaScript, Threejs"
 				},
 				"relation":{
 					"images":[
@@ -348,12 +397,11 @@
 					"모바일은 고려하지 않았으며 ie10이상에서 동작한다."
 				],
 				"summary":{
-					"environment":"JavaScript, PixiJS, Howljs, TweenLite, HTML, CSS",
+					"environment":"JavaScript, PixiJS, Howljs, HTML, CSS",
 					"implements" :[
-						"블럭 타입에 따른 블럭아이템 구성",
-						"드래그앤 드랍에 따른 블럭 생성",
+						"타입에 따른 블럭아이템 구성",
+						"드래그 시 블럭 생성",
 						"블럭 추가 시 위치에 기반한 트랜지션",
-						"카테고리 타입에 따른 뷰 갱신",
 						"블럭 마우스 오버바향에 따른 트랜지션"
 					]
 				},

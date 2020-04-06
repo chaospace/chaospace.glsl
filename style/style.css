@@ -457,8 +457,7 @@ header {
     display: flex;
     justify-content: space-between; }
     header .global-layer .logo {
-      position: relative;
-      text-shadow: 1px 1px 1px black; }
+      position: relative; }
     header .global-layer .global-menu {
       position: relative;
       width: 34px;
@@ -503,7 +502,6 @@ header {
         header .menu-layer .navigation ul .nav-item {
           position: relative;
           margin: 0 10px;
-          text-shadow: 1px 1px 1px black;
           color: white;
           padding: 0;
           border: none; }
@@ -665,7 +663,6 @@ footer {
   bottom: 0;
   right: 45px;
   font-size: 11px;
-  text-shadow: 1px 1px 1px black;
   z-index: 20; }
 
 @-webkit-keyframes transition-in-out {
