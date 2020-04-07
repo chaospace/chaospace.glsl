@@ -415,7 +415,7 @@ strong {
     text-align: center;
     display: block;
     overflow: hidden;
-    opacity: 0;
+    visibility: hidden;
     padding-top: 9px;
     width: 40px;
     height: 40px;
@@ -457,7 +457,8 @@ header {
     display: flex;
     justify-content: space-between; }
     header .global-layer .logo {
-      position: relative; }
+      position: relative;
+      opacity: 0.6; }
     header .global-layer .global-menu {
       position: relative;
       width: 34px;
@@ -628,13 +629,19 @@ header {
       height: 100vh; }
   #visual-container .control-panel {
     position: absolute; }
-
-/*
-#visual-container-scrollbar {
+  #visual-container .footer-panel {
     position: absolute;
-    z-index:1;
-}
-*/
+    bottom: 20px;
+    color: white;
+    font-size: 11px;
+    width: 100%;
+    padding: 0 45px;
+    display: flex;
+    justify-content: center; }
+    #visual-container .footer-panel .copyright {
+      opacity: 0.6;
+      text-align: right; }
+
 #transition-cover {
   position: fixed;
   top: 0;
@@ -687,4 +694,6 @@ footer {
   #content-container .content-area .content-frame {
     padding: 60px 20px; }
     #content-container .content-area .content-frame .image-box {
-      padding: 20px 10px; } }
+      padding: 20px 10px; }
+  #visual-container .footer-panel {
+    padding: 0 20px; } }
