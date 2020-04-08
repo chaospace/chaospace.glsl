@@ -265,7 +265,7 @@
 				}
 			},
 			{
-				"title":"ParticleText",
+				"title":"ParticlesⅡ",
 				"thumb":"assets/images/particle_text.jpg",
 				"color":"#661111",
 				"description":[
@@ -286,6 +286,31 @@
 					"resources":[
 						"assets/images/particle_text/alicia.png",
 						"assets/images/particle_text/gigi_hardid.png"
+					]
+				}
+			},
+			{
+				"title":"ParticlesⅢ",
+				"thumb":"assets/images/particle_video.jpg",
+				"color":"#283149",
+				"description":[
+					"particle을 이용한 이미지 표현",
+					"이미지의 컬러정보를 바탕으로 마우스에 반응하는 particle을 만든다."
+				],
+				"summary":{
+					"environment":"Gulp, Rollup, Threejs, shader, canvas"
+				},
+				"relation":{
+					"images":[
+						"assets/images/particle_video/thumb_0.jpg",
+						"assets/images/particle_video/thumb_1.jpg"
+					]
+				},
+				"component":{
+					"name":"ParticleVideoGLSL",
+					"resources":[],
+					"video":[
+						"assets/video/websocket.mp4"
 					]
 				}
 			},
@@ -316,7 +341,7 @@
 				}
 			},
 			{
-				"title":"ChannelMix",
+				"title":"DisplacementⅡ",
 				"thumb":"assets/images/channel.jpg",
 				"color":"#9e3732",
 				"description":[
@@ -345,7 +370,7 @@
 				}
 			},
 			{
-				"title":"Cylinder",
+				"title":"DisplacementⅢ",
 				"thumb":"assets/images/cylinder.jpg",
 				"color":"#c9aa08",
 				"description":[
